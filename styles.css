@@ -79,3 +79,6 @@
 .contact-actions{display:flex;gap:10px;flex-wrap:wrap}
 @media(max-width:650px){.contact-actions{gap:10px;flex-wrap:wrap}}
 
+
+.reel-embed{width:min(100%,340px);aspect-ratio:9/16;margin-top:18px;overflow:hidden;border:1px solid var(--title-gold);border-radius:12px;background:#082862}
+.reel-embed iframe{display:block;width:100%;height:100%;border:0}
