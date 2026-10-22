@@ -70,3 +70,11 @@
 
 .session-card{border-radius:16px;overflow:hidden}
 
+
+.contact-link{grid-template-columns:34px 1fr}
+@media(max-width:650px){.contact-actions{display:flex;gap:0;flex-wrap:nowrap}.contact-actions .button{margin:0}}
+
+@media(max-width:650px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:auto;gap:8px}.photo-grid .gallery-photo,.photo-grid .gallery-photo:nth-child(n){grid-column:auto!important;aspect-ratio:1/1!important;height:auto!important;min-width:0}}
+
+.contact-actions{display:flex;gap:10px;flex-wrap:wrap}
+@media(max-width:650px){.contact-actions{gap:10px;flex-wrap:wrap}}
