@@ -9,7 +9,7 @@ window.SOLAME = {
     participants: "14 participants maximum",
     price: "350 €",
     duration: "15 heures de cours",
-    bookingUrl: "mailto:lily.horlait@gmail.com?subject=Formation%20Tarot%20Psychologique%20-%20Nivelles"
+    bookingUrl: "#infos"
   },
   contact: {
     phone: "0471 03 89 95",
