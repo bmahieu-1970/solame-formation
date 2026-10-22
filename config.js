@@ -3,7 +3,7 @@ window.SOLAME = {
   event: {
     city: "Nivelles",
     venue: "Hôtel Van der Valk – Nivelles",
-    dates: "10 & 11 octobre 2026",
+    dates: "30 et 31 janvier 2027",
     arrival: "8h30",
     hours: "9h – 17h30",
     participants: "14 participants maximum",
