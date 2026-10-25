@@ -206,3 +206,15 @@
 .section-kicker{gap:14px;font-size:18px}
 .section-kicker span{flex-basis:36px;width:36px;height:36px;font-size:16px}
 .section-kicker i{width:36px}
+
+.testimonial-more{margin-top:20px}
+.testimonial-more summary{display:flex;align-items:center;justify-content:flex-start;gap:10px;padding:12px 0;color:var(--title-blue);font-size:14px;font-weight:700;cursor:pointer;list-style:none}
+.testimonial-more summary::-webkit-details-marker{display:none}
+.testimonial-more summary:after{content:'+';display:inline-grid;place-items:center;width:22px;height:22px;flex:0 0 22px;border:1px solid var(--title-gold);border-radius:50%;color:var(--title-gold);font-size:16px;line-height:1}
+.testimonial-more[open] summary:after{content:'−'}
+.testimonial-more summary:hover{color:var(--title-gold)}
+.testimonial-more-close{display:none}
+.testimonial-more[open] .testimonial-more-open{display:none}
+.testimonial-more[open] .testimonial-more-close{display:inline}
+.testimonial-more-content{padding-top:4px}
+.testimonial-more-content .testimonial-divider{margin:4px 0 18px}
