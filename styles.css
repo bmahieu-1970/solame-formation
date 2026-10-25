@@ -203,6 +203,6 @@
 .fit-more-list{margin:0;padding:0;border-top:0}
 
 /* Make numbered section labels easier to read */
-.section-kicker{gap:18px;font-size:24px}
-.section-kicker span{flex-basis:48px;width:48px;height:48px;font-size:21px}
-.section-kicker i{width:50px}
+.section-kicker{gap:14px;font-size:18px}
+.section-kicker span{flex-basis:36px;width:36px;height:36px;font-size:16px}
+.section-kicker i{width:36px}
