@@ -201,3 +201,8 @@
 .fit-more[open] .fit-more-open{display:none}
 .fit-more[open] .fit-more-close{display:inline}
 .fit-more-list{margin:0;padding:0;border-top:0}
+
+/* Make numbered section labels easier to read */
+.section-kicker{gap:18px;font-size:24px}
+.section-kicker span{flex-basis:48px;width:48px;height:48px;font-size:21px}
+.section-kicker i{width:50px}
