@@ -189,3 +189,15 @@
 .gallery-toggle:hover{color:var(--title-gold)}
 @media(max-width:900px){.gallery-collapsed .gallery-photo:nth-child(n+6){display:none}}
 @media(max-width:650px){.gallery-collapsed .gallery-photo:nth-child(n+5){display:none}}
+
+/* Collapsible part of the "Cette formation est faite pour vous" list */
+.fit-list-column{min-width:0}
+.fit-more summary{display:flex;align-items:center;justify-content:flex-start;gap:10px;padding:13px 0;border-bottom:1px solid var(--line);color:var(--title-blue);font-size:15px;line-height:1.7;font-weight:700;cursor:pointer;list-style:none}
+.fit-more summary::-webkit-details-marker{display:none}
+.fit-more summary:after{content:'+';display:inline-grid;place-items:center;width:22px;height:22px;flex:0 0 22px;border:1px solid var(--title-gold);border-radius:50%;color:var(--title-gold);font-size:16px;line-height:1}
+.fit-more[open] summary:after{content:'−'}
+.fit-more summary:hover{color:var(--title-gold)}
+.fit-more-close{display:none}
+.fit-more[open] .fit-more-open{display:none}
+.fit-more[open] .fit-more-close{display:inline}
+.fit-more-list{margin:0;padding:0;border-top:0}
