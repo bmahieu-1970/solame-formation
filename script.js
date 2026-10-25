@@ -37,6 +37,14 @@ nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () =>
   nav.classList.remove('open');
 }));
 
+const galleryGrid = document.querySelector('.photo-grid');
+const galleryToggle = document.querySelector('.gallery-toggle');
+galleryToggle.addEventListener('click', () => {
+  const expanded = galleryToggle.getAttribute('aria-expanded') === 'true';
+  galleryToggle.setAttribute('aria-expanded', String(!expanded));
+  galleryGrid.classList.toggle('gallery-collapsed', expanded);
+});
+
 const lightbox = document.querySelector('.lightbox');
 const lightboxImage = lightbox.querySelector('img');
 document.querySelectorAll('.gallery-photo').forEach((photo) => photo.addEventListener('click', () => {

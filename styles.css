@@ -176,3 +176,16 @@
 .trainer-more summary:hover{color:var(--title-gold)}
 .trainer-more>div{padding-top:12px}
 .trainer-more>div p:last-child{margin-bottom:0}
+
+/* Initially show two photo rows; reveal the rest on demand. */
+.gallery-collapsed .gallery-photo:nth-child(n+8){display:none}
+.gallery-toggle{display:inline-flex;align-items:center;gap:10px;margin-top:22px;padding:0;border:0;background:none;color:var(--title-blue);font-size:13px;font-weight:700;cursor:pointer}
+.gallery-toggle i{display:inline-grid;place-items:center;width:22px;height:22px;border:1px solid var(--title-gold);border-radius:50%;font-style:normal}
+.gallery-toggle i:before{content:'+';color:var(--title-gold);font-size:16px;line-height:1}
+.gallery-toggle-close{display:none}
+.gallery-toggle[aria-expanded="true"] .gallery-toggle-open{display:none}
+.gallery-toggle[aria-expanded="true"] .gallery-toggle-close{display:inline}
+.gallery-toggle[aria-expanded="true"] i:before{content:'−'}
+.gallery-toggle:hover{color:var(--title-gold)}
+@media(max-width:900px){.gallery-collapsed .gallery-photo:nth-child(n+6){display:none}}
+@media(max-width:650px){.gallery-collapsed .gallery-photo:nth-child(n+5){display:none}}
