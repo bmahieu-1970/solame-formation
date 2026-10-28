@@ -2,13 +2,13 @@
 window.SOLAME = {
   event: {
     city: "Nivelles",
-    venue: "Hôtel Van der Valk – Nivelles",
+    venue: "Hôtel Van der Valk — Nivelles",
     dates: "30 et 31 janvier 2027",
     arrival: "8h30",
-    hours: "9h – 17h30",
+    hours: "9h à 17h30",
     participants: "14 participants maximum",
     price: "350 €",
-    duration: "15 heures de cours",
+    duration: "16 heures en présentiel",
     bookingUrl: "#infos"
   },
   contact: {
