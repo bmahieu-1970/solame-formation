@@ -220,7 +220,7 @@
 .testimonial-more-content .testimonial-divider{margin:4px 0 18px}
 
 /* Give the investment column 50% more width on desktop */
-.session-details{grid-template-columns:1.2fr 1.2fr 1fr 1.56fr}
+@media(min-width:651px){.session-details{grid-template-columns:1.2fr 1.2fr 1fr 1.56fr}}
 .session-details .detail-note strong{display:inline;font-size:inherit;line-height:inherit}
 
 .situations-list article{padding:0 0 13px;margin:0 0 13px;border-bottom:1px solid var(--line)}
