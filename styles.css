@@ -242,3 +242,4 @@
 #programme .programme-heading{display:block}
 #programme .programme-heading>.programme-intro{width:100%;max-width:none;margin:18px 0 0;padding:0;background:transparent;color:inherit;border-radius:0}
 @media(min-width:651px){.contact-grid{grid-template-columns:1.2fr 1fr;gap:8%}.contact-intro{max-width:480px}}
+@media(max-width:650px){.session-main>div{width:100%;min-width:0}.session-main h2{font-size:clamp(23px,7vw,32px);line-height:1.2;overflow-wrap:break-word}}
